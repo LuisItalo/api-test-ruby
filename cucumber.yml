@@ -1,0 +1,2 @@
+default: --format Cucumber::Formatter::Json --out tmp/cucumber_report.json
+default: -r features -r step_definitions
